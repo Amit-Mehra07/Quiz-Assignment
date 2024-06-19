@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+android:padding="16dp">
+
+<TextView
+    android:id="@+id/timerTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="10:00"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:textSize="16sp" />
+
+<TextView
+    android:id="@+id/questionTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Question will appear here?"
+    android:textSize="24sp"
+    android:lineHeight="36dp"
+    android:layout_marginTop="50dp"
+    android:paddingBottom="16dp"
+    android:layout_gravity="center_horizontal"
+    />
+
+<RadioGroup
+    android:id="@+id/optionsRadioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="10dp">
+    <RadioButton android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pirates"/>
+    <RadioButton android:id="@+id/option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ninjas"/>
+    <RadioButton android:id="@+id/option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pirates"/>
+    <RadioButton android:id="@+id/option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ninjas"/>
+</RadioGroup>
+
+<Button
+    android:id="@+id/submitAnswerButton"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submit Answer" />
+</LinearLayout>

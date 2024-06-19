@@ -1,0 +1,53 @@
+[
+  {
+    "question": "What does XML stand for in Android development?",
+    "options": ["Extensible Markup Language", "External Mobile Link", "Extended Mobile Loop", "Extra Mobile Language"],
+    "answer": "Extensible Markup Language"
+  },
+  {
+    "question": "Which file in Android Studio is used for declaring app permissions?",
+    "options": ["activity_main.xml", "MainActivity.java", "build.gradle", "AndroidManifest.xml"],
+    "answer": "AndroidManifest.xml"
+  },
+  {
+    "question": "What is the primary purpose of the 'findViewById' method in Android development?",
+    "options": ["Find a view by its identifier", "Find a view by its class", "Find a view by its name", "Find a view by its tag.xml"],
+    "answer": "Find a view by its identifier"
+  },
+  {
+    "question": "Which layout is used to organize elements in a vertical column in Android?",
+    "options": ["LinearLayout", "RelativeLayout", "ConstraintLayout", "FrameLayout"],
+    "answer": "LinearLayout"
+  },
+  {
+    "question": "What is the function of an Intent in Android?",
+    "options": ["To display a message", "To perform background tasks", "To navigate between activities or apps", "To store data in a database"],
+    "answer": "To navigate between activities or apps"
+  },
+  {
+    "question": "Which component is responsible for managing the app's lifecycle in Android?",
+    "options": ["Activity", "Services", "BroadcastReceiver", "ContentProvider"],
+    "answer": "Activity"
+  },
+  {
+    "question": "What is the role of the 'R.java' file in Android development?",
+    "options": ["Contains the app's resources", "Manages runtime permissions", "Handles app navigation", "Generates random numbers"],
+    "answer": "Contains the app's resources"
+  },
+  {
+    "question": "Which attribute is used to specify the entry point for an Android app?",
+    "options": ["main-class", "start-activity", "launch-activity", "intent-filter"],
+    "answer": "intent-filter"
+  },
+  {
+    "question": "What is the purpose of the 'Toast' class in Android?",
+    "options": ["To display images", "To show short-duration messages", "To handle user input", "To manage background processes"],
+    "answer": "To show short-duration messages"
+  },
+  {
+    "question": "Which method is called when an activity is first created in Android?",
+    "options": ["onStart()", "onCreate()", "onResume()", "onInit()"],
+    "answer": "onCreate()"
+  }
+
+]
